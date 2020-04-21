@@ -12,7 +12,9 @@ import org.superbiz.cloudfoundry.ServiceCredentials;
 import org.superbiz.moviefun.blobstore.BlobStore;
 import org.superbiz.moviefun.blobstore.S3Store;
 import org.superbiz.moviefun.moviesapi.MovieServlet;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+@EnableEurekaClient
 @SpringBootApplication
 public class Application {
 

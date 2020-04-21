@@ -10,7 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.superbiz.cloudfoundry.ServiceCredentials;
 import org.superbiz.moviefun.blobstore.BlobStore;
 import org.superbiz.moviefun.blobstore.S3Store;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+@EnableEurekaClient
 @SpringBootApplication
 public class AlbumServiceApplication {
     public static void main(String... args) {
