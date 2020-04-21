@@ -26,5 +26,5 @@ dependencies {
     compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 
-    compile "mysql:mysql-connector-java:$mysqlVersion"
+    compile "mysql:mysql-connector-java"
 }
